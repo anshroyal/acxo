@@ -1,4 +1,5 @@
 import streamlit as st 
+import favi.jpg
 
 import joblib as jo
 
@@ -43,7 +44,7 @@ if terms:
      if 0 == result :
          st.success("NORMAL ")
      if 1 == result :
-        st.warning(" likely AMENIA  ")
+        st.warning(" likely ANEMIA  ")
         with st.expander("Recommended"):
          st.write("consult to professional Doctor ")
     
