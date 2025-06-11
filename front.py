@@ -28,7 +28,7 @@ terms = st.checkbox('terms_policy')
 with st.expander('terms_policy'):
    st.write(""" This AI tool is in beta stage .
             user must confirm the result with the doctor also  
-            It does not provide medicl advice please consult to a doctor taking any action 
+            It does not provide medical advice please consult to a doctor taking any action 
             users are agree that developer of this ai tool are not liable for any outcomes or wrong result 
             the user is agreeing all this terms and policy ... """
    "")
